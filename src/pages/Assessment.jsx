@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Monitor, Smartphone, ExternalLink, ShieldCheck, AlertCircle } from "lucide-react";
+import { Monitor, Smartphone, ExternalLink, ShieldCheck, ArrowRight, AlertCircle } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import MobileViewer from "../components/MobileViewer";
 
 export default function AssessmentPage() {
-  const moduleUrl = "https://inri-pkrf.github.io/assessment2026/";
+  const moduleUrl = "https://inri-pkrf.github.io/assessment/";
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {

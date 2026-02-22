@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Smartphone, Truck } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 import MobileViewer from "../components/MobileViewer";
 
 export default function LogisticsPage() {

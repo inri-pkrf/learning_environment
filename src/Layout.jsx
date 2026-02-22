@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
-import { Menu, X, Home, Users, Stethoscope, HandHeart, Truck, GraduationCap, ShieldCheck, Library, Camera, Heart, Map } from "lucide-react";
+import { Menu, X, Home, Users, Stethoscope, HandHeart, Truck, GraduationCap, ShieldCheck, Library, Camera, EyeOff, Heart, Map } from "lucide-react";
 import { LearningModule } from "./entities/LearningModule";
 
 const NavLink = ({ to, onClick, pathname, children }) => (

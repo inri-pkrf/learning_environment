@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { RotateCcw, ArrowRight, ArrowLeft } from "lucide-react";
+import { RotateCcw, Home, ArrowRight, ArrowLeft } from "lucide-react";
 
 export default function MobileViewer({ url, title }) {
   const iframeRef = React.useRef(null);

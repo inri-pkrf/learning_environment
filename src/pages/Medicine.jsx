@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Monitor, ExternalLink, Stethoscope, ArrowRight } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 export default function MedicinePage() {
   const moduleUrl = "https://inri-pkrf.github.io/lomda-medicine-guide/";

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { LearningModule } from "@/entities/LearningModule";
-import { Monitor, Smartphone, ChevronLeft, Sparkles, Target, Users, Award, AlertTriangle, EyeOff } from "lucide-react";
+import { Monitor, Smartphone, ExternalLink, ChevronLeft, Sparkles, Target, Users, Award, AlertTriangle, EyeOff } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
