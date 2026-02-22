@@ -7,7 +7,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import MobileViewer from "../components/MobileViewer";
 
 export default function AssessmentPage() {
-  const moduleUrl = "https://inri-pkrf.github.io/assessment/";
+  const moduleUrl = "https://inri-pkrf.github.io/assessment2026/";
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
