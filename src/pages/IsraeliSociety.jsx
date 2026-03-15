@@ -4,7 +4,7 @@ import { Smartphone, Heart } from "lucide-react";
 import MobileViewer from "../components/MobileViewer";
 
 export default function IsraeliSocietyPage() {
-  const moduleUrl = "https://inri-pkrf.github.io/israeli-society/";
+  const moduleUrl = "https://inri-pkrf.github.io/israeli-society-copy/";
 
   useEffect(() => {
     window.scrollTo(0, 0);
